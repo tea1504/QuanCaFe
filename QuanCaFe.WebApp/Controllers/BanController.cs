@@ -46,6 +46,7 @@ namespace QuanCaFe.WebApp.Controllers
             Ban b = _context.Bans.Find(id);
             return View(b);
         }
+        //TH4 cmt
         [HttpPost, ActionName("Edit")]
         public async Task<IActionResult> Edit(int id)
         {
