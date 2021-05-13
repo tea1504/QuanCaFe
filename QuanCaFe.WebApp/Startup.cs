@@ -39,7 +39,7 @@ namespace QuanCaFe.WebApp
             //services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddDbContext<QuanCaFeDBContext>(options =>
                 options.UseSqlServer(ConnectionString));
-
+            //services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddControllersWithViews();
         }
 
@@ -67,7 +67,7 @@ namespace QuanCaFe.WebApp
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Ban}/{action=Index}/{id?}");
             });
         }
     }
