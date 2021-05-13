@@ -8,5 +8,6 @@ namespace QuanCaFe.Data.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public List<HoaDon> HoaDons { get; set; }
     }
 }

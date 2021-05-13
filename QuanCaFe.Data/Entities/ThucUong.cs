@@ -9,5 +9,6 @@ namespace QuanCaFe.Data.Entities
         public int Id { get; set; }
         public string TenTU { get; set; }
         public float GiaTU { get; set; }
+        public List<HoaDonChiTiet> HoaDonChiTiets { get; set; }
     }
 }

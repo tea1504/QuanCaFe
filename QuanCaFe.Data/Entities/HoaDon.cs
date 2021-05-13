@@ -12,5 +12,8 @@ namespace QuanCaFe.Data.Entities
         public ThanhToan Dathanhtoan { get; set; }
         public int Soban{ get; set; }
         public int MSNV { get; set; }
+        public List<HoaDonChiTiet> HoaDonChiTiets { get; set; }
+        public Ban Ban { get; set; }
+        public NhanVien NhanVien { get; set; }
     }
 }
