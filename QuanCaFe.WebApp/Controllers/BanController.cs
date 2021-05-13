@@ -41,11 +41,13 @@ namespace QuanCaFe.WebApp.Controllers
             }
             return RedirectToAction("Index");
         }
+        //th3 cmt
         public IActionResult Edit(int? id)
         {
             Ban b = _context.Bans.Find(id);
             return View(b);
         }
+        //th3 cmt
         [HttpPost, ActionName("Edit")]
         public async Task<IActionResult> Edit(int id)
         {
