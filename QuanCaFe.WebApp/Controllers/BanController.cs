@@ -15,7 +15,7 @@ namespace QuanCaFe.WebApp.Controllers
         public BanController(QuanCaFeDBContext context)
         {
             _context = context;
-            //TH1 cmt
+            //TH2 cmt
         }
         public async Task<IActionResult> Index()
         {
